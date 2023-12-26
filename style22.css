@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f6f6f6;
+}
+.div1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(127, 215, 247);
+}
+img{
+    float: left;
+}
+.firstdiv{
+    float:right;
+    width: 400px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.navigation{
+    width: 100%;
+    height: 100px;
+    background-color:#bbb8b8;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.navigation h1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-size: 40px;
+}
+.navigation ul{
+display:flex;
+}
+li:hover{
+ color: blue;
+ font-size: 40px;
+}
+ .navigation li{
+margin: 30px;
+font-size: 35px;
+list-style-type: none;
+}
+button{
+background-color: rgb(88, 79, 79);
+color: white;
+position: relative;
+right: 50px;
+font-size: 20px;
+font-weight: 600;
+height: 70px;
+margin-top: 20px;
+}
+.masterdiv{
+    width: 100%;
+    height: 600px;
+    background-color: #bbb8b8;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+}
+.masterdiv1{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(150, 150, 247);
+}
+.masterdiv2{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(173, 240, 148);
+}
+.masterdiv3{
+    width: 400px;
+    height: 600px;
+    background-color: rgb(240, 174, 155);
+}
+.masterdiv1 h1{
+    text-align: center;
+    border-bottom: 3px solid black;
+}  
+.about{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+}
+.masterdiv2 h1{
+    text-align: center;
+    border-bottom: 3px solid blue;
+}
+.masterdiv3 h1{
+    text-align: center;
+    border-bottom: 3px solid rgb(218, 14, 211);
+}
+.masterdiv3 p{
+    line-height:30px;
+}
+footer{
+    width: 100%;
+    height: 600px;
+    background-color: #3d3a3a;
+    display: flex;
+    justify-content: space-between;
+}
+.end1{
+    width: 440px;
+    height: 600px;
+}
+.end2{
+    width: 400px;
+    height: 600px;
+    background-color: #2b16b3;
+}
+.end3{
+    width: 400px;
+    height: 400px;
+    background-color: #0de40a;
+}
+.end1 ul{
+   line-height: 40px;
+   font-size: 20px;
+   color: #fff;
+}
+.end1 li{
+    list-style-type: none;
+}
+.end3 h1{
+    color: rgb(156, 147, 147);
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+span{
+    color: white;
+    font-size: 50px;
+}
